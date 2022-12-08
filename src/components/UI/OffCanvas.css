@@ -1,0 +1,25 @@
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: var(--very-dark-blue);
+
+  color: white;
+}
+
+.offcanvas-item {
+  border-top: var(--grayish-blue);
+  border-bottom: var(--grayish-blue);
+}
+
+.offcanvas-button {
+  width: 70vw;
+  background-color: inherit;
+  border: 2px solid white;
+}
+
+.offcanvas-item:hover {
+  color: var(--soft-red);
+}

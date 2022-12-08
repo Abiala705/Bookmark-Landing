@@ -1,0 +1,15 @@
+.card {
+  font-weight: "Rubik", sans-serif;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border: none;
+  height: 400px;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.button {
+  color: white;
+  background-color: var(--soft-blue);
+  border: none;
+}

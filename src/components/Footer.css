@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--very-dark-blue);
+}
+
+.footer-logo {
+  fill: white;
+}
+.facebook-icon:hover,
+.twitter-icon:hover {
+  fill: var(--soft-red);
+}
+
+.footer ul.footer-nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--bs-gray-100);
+  font-family: "Rubik";
+}

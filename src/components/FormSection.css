@@ -1,0 +1,14 @@
+.form-section {
+  background-color: var(--soft-blue);
+  color: white;
+}
+
+.form-section p {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.contact {
+  background-color: var(--soft-red);
+  border: none;
+}

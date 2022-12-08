@@ -1,0 +1,16 @@
+.accordion {
+  min-width: 350px;
+  max-width: 700px;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+
+.accordion-button:hover {
+  color: var(--soft-red);
+}
+
+button.accordion-button.collapsed:hover {
+  color: var(--soft-red);
+}

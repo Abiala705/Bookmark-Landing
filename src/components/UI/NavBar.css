@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-transform: uppercase;
+}
+ul li:hover {
+  color: var(--soft-red);
+}
+.nav-btn {
+  background-color: var(--soft-red);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+.nav-btn:hover {
+  color: var(--soft-red);
+  background-color: inherit;
+  border: 1px solid var(--soft-red);
+}

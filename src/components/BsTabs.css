@@ -1,0 +1,5 @@
+.nav-tabs .nav-link {
+  border-width: none;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+:root {
+  --soft-blue: hsl(231, 69%, 60%);
+  --soft-red: hsl(0, 94%, 66%);
+  --grayish-blue: hsl(229, 8%, 60%);
+  --very-dark-blue: hsl(229, 31%, 21%);
+}
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+@media (min-width: 786px) {
+  .padding--left {
+    padding-left: 200px;
+  }
+
+  .padding--center {
+    padding: 0px 400px 0px 400px;
+  }
+
+  .padding--center--features {
+    padding: 0px 400px 0px 400px;
+  }
+
+  .padding--center--form {
+    padding: 0px 500px 0px 500px;
+  }
+}
+
+@media (min-width: 786px) and (max-width: 1330px) {
+  .padding--center {
+    padding: 0px 50px 0px 50px;
+  }
+
+  .padding--center--features {
+    padding: 0px 50px 0px 50px;
+  }
+
+  .padding--center--form {
+    padding: 0px 50px 0px 50px;
+  }
+}

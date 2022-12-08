@@ -1,0 +1,33 @@
+/* :root {
+  --soft-blue: hsl(231, 69%, 60%);
+  --soft-red: hsl(0, 94%, 66%);
+  --grayish-blue: hsl(229, 8%, 60%);
+  --very-dark-blue: hsl(229, 31%, 21%);
+} */
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+.hero {
+  background-image: url("../assets/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chrome {
+  color: white;
+  background-color: var(--soft-blue);
+  border: none;
+}
+
+.firefox {
+  color: var(--very-dark-blue);
+  background-color: var(--grayish-blue);
+  border: none;
+}
+.padding--left {
+  padding-left: 200px;
+}
+
+@media (min-width: 786px) {
+}
