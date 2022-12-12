@@ -12,7 +12,7 @@ const NavBar = () => {
     <Container
       bg="light"
       expand="lg"
-      className="container-xxl py-3 row justify-content-center px-5"
+      className="container-xxl py-3 row justify-content-center px-2"
     >
       <div className="row col-12">
         <div href="#home" className="col-2">
