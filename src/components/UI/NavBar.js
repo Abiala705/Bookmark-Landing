@@ -12,14 +12,14 @@ const NavBar = () => {
     <Container
       bg="light"
       expand="lg"
-      className="container-fluid py-3 row justify-content-center mx-5"
+      className="container-xxl py-3 row justify-content-center px-5"
     >
       <div className="row col-12">
         <div href="#home" className="col-2">
           <img src={logo} />
         </div>
 
-        <OffCanvas className="col-2" />
+        <OffCanvas className="col-1" />
 
         <nav class="d-none d-md-block col-5 ms-auto me-3">
           <ul className="row">

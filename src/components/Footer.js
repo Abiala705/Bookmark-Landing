@@ -22,10 +22,10 @@ const Footer = () => {
           </g>
         </svg>
       </div>
-      <div className="col-6">
+      <div className="col-12 text-center">
         <ul className="footer-nav col-md-6 gap-3 pt-4">
-          <li>
-            <a>Features</a>
+          <li className="text-center">
+            <a href="#features">Features</a>
           </li>
           <li>
             <a>Pricing</a>
